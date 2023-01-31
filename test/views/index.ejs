@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="../public/js/alertrr.js"></script>
+  <link rel="stylesheet" href="../public/css/style.css">
+
+
+
+
+  </script>
+
+  <meta charset="utf-8">
+  <title>tas</title>
+</head>
+
+
+
+<body class="ifelsediv">
+  <form action="index.html" method="post">
+    <h1 id="hider3">Выберите направление и нажмите Подтвердить</h1>
+
+    <select id="hider2" onchange="selectChange()">
+      <option value="1">Среда моделирования компьютерной сети</option>
+      <option value="2">Интегрированная среда разработки</option>
+      <option value="3">Платформа дистанционного обучения</option>
+      <option value="4">JavaScript фреймвор</option>
+      <option value="5">Поисковая система</option>
+      <option value="6">Текстовый редактор</option>
+      <option value="7">Табличный процессор</option>
+    </select>
+
+    <div id="vibor">
+      <div id="model" class="displayBlock">
+        <input type="checkbox" name="Cisco_Packet_Tracer">Cisco Pocket Tracer</input>
+        <input type="checkbox" name="Dynamips">Dynamips</input><br>
+        <input type="checkbox" name="Graphical_Network_Simulator-3">Graphfical_Network_Simulator-3 (GNS3)</input><br>
+        <input type="checkbox" name="ns-3">ns-3 (network simulator)</input>
+      </div>
+
+      <div id="integr" class="displayNone">
+        <input type="checkbox" name="Cisco">Поисковая</input>
+        <input type="checkbox" name="Dynamips">Dynamips</input><br>
+        <input type="checkbox" name="Graphfical">Graphfical Network Simulator-3 (GNS3)</input><br>
+        <input type="checkbox" name="ns">ns (network simulator)</input>
+      </div>
+
+      <div id="platforma" class="displayNone">
+        <input type="checkbox" name="Cisco">Cisco Pocket Tracer</input>
+        <input type="checkbox" name="Dynamips">Dynamips</input><br>
+        <input type="checkbox" name="Graphfical">Graphfical Network Simulator-3 (GNS3)</input><br>
+        <input type="checkbox" name="ns">ns (network simulator)</input>
+      </div>
+      <div id="JavaScript" class="displayNone">
+        <input type="checkbox" name="Cisco">Cisco Pocket Tracer</input>
+        <input type="checkbox" name="Dynamips">Dynamips</input><br>
+        <input type="checkbox" name="Graphfical">Graphfical Network Simulator-3 (GNS3)</input><br>
+        <input type="checkbox" name="ns">ns (network simulator)</input>
+      </div>
+      <div id="poisk" class="displayNone">
+        <input type="checkbox" name="Cisco">Cisco Pocket Tracer</input>
+        <input type="checkbox" name="Dynamips">Dynamips</input><br>
+        <input type="checkbox" name="Graphfical">Graphfical Network Simulator-3 (GNS3)</input><br>
+        <input type="checkbox" name="ns">ns (network simulator)</input>
+      </div>
+      <div id="text" class="displayNone">
+        <input type="checkbox" name="Cisco">Cisco Pocket Tracer</input>
+        <input type="checkbox" name="Dynamips">Dynamips</input><br>
+        <input type="checkbox" name="Graphfical">Graphfical Network Simulator-3 (GNS3)</input><br>
+        <input type="checkbox" name="ns">ns (network simulator)</input>
+      </div>
+      <div id="tabl" class="displayNone">
+        <input type="checkbox" name="Cisco">Cisco Pocket Tracer</input>
+        <input type="checkbox" name="Dynamips">Dynamips</input><br>
+        <input type="checkbox" name="Graphfical">Graphfical Network Simulator-3 (GNS3)</input><br>
+        <input type="checkbox" name="ns">ns (network simulator)</input>
+      </div>
+    </div>
+    <input type="button" value="Подтвердить" onclick="getJSON()" id="hider" </input>
+    <div class="results">
+      <div class="partResults">
+        <div class="leftDiv">
+          <input type="text" value="Developer" readonly>
+          <input type="text" value="Initial_release" readonly>
+          <input type="text" value="Stable_release" readonly>
+          <input type="text" value="Repository" readonly>
+          <input type="text" value="Written_in" readonly>
+          <input type="text" value="Type" readonly>
+          <input type="text" value="License" readonly>
+          <input type="text" value="Website" readonly>
+          <input type="text" value="Operating_system" readonly>
+          <input type="text" value="Platform" readonly>
+          <input type="text" value="Languages" readonly>
+        </div>
+      </div>
+    </div>
+
+
+
+  </form>
+</body>
+
+</html>

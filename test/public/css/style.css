@@ -1,0 +1,28 @@
+#hider2{
+    display: flex;
+}
+
+#change{
+    display: flex;
+}
+
+.results, .leftDiv, .rightDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.partResults{
+    display: flex;
+}
+.rightDiv input{
+    width: 500px;
+
+}
+
+.displayNone{
+    display: none;
+}
+
+.displayBlock{
+    display: block;
+}
